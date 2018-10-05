@@ -1,0 +1,73 @@
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:rgb(42,42,42);
+    overflow-x:hidden;
+    padding-top: 30px;
+    /* transition:0.5s; */
+    font-family: "Janna Regular", sans-serif;
+    font-size:18px;
+
+}
+.sidenav a{
+    padding: 20px 8px 8px 15px;
+    text-decoration: none;
+    color:rgb(142,142,142);
+    display:block;
+    transition:0.1s;
+    
+    border: 1px solid transparent;
+}
+
+.navlinks{
+    padding-top:50px;
+    border: 2px solid transparent;    
+}
+
+.navlinks a:hover, a:hover path{
+    color:white;
+    background-color:rgb(46,46,46);
+    border: 2px solid rgb(244, 185, 91);
+    fill: rgb(244, 185, 91);
+    
+}
+
+/* .sidenav .closebtn{
+    position: absolute;
+    top:0;
+    right:25px;
+    font-size:36px;
+    margin-left:50px;
+} */
+
+.main{
+    margin-left:200px;
+}
+
+.logo{
+    padding-top:8px;
+    padding-left:3px;
+    height:25px;
+    width: 130px;
+}
+
+.navbtnpic{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+/* span{
+    font-size:30px;
+    cursor: pointer;
+} */
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
